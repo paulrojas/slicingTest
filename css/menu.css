@@ -65,3 +65,12 @@ li a {
 .menu_selected a {
     color: #fff !important;
 }
+
+@media screen and (max-width: 640px) {
+    .two_line_menu li:nth-child(n+3) {
+        display: none;
+    }
+    .two_line_menu li:nth-child(n+8) {
+        display: inline-block;
+    }
+}

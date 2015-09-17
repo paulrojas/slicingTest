@@ -88,3 +88,9 @@ body {
 .link2 {
     margin-left: 15px;
 }
+
+@media screen and (max-width: 640px) {
+    #top {
+        width: 95%;
+    }
+}
