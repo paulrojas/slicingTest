@@ -1,0 +1,64 @@
+/* CSSTerm.com CSS Horizontal menu with images */
+
+.css_menu_two_line {
+    width:100%;
+    overflow:hidden;
+}
+
+.two_line_menu {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+.two_line_menu a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding:10px;
+    font-size: 11pt;
+}
+
+.two_line_menu li {
+    background: linear-gradient(white 35%, #c9c9c9 100%);
+    border-right: 1px #7e7e7e solid;
+    border-bottom: #156a9c 1px solid;
+}
+
+.two_line_menu li, .second_line_menu li { display: inline-block; width: 97px; text-align: center;}
+
+.second_line_menu {
+    display: none;
+    position: relative;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(#428ebb 70%, #4c9bc5 100%);
+    margin: 0px;
+    padding: 0px;
+}
+
+.second_line_menu li:hover a { color: #000; }
+
+.second_line_menu li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding:10px;
+    font-size: 10pt;
+}
+
+li a {
+    font-family: Arial;
+}
+
+.menu_selected {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding-top: 5px;
+    background: #428ebb !important;
+    border-bottom: 1px #428ebb solid !important;
+}
+
+.menu_selected a {
+    color: #fff !important;
+}
