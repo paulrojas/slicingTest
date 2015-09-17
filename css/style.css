@@ -10,13 +10,81 @@ body {
 #header {
     height: 600px;
     width: 100%;
-    background: linear-gradient(to bottom, rgba(148,211,236,1) 0%,rgba(148,211,236,0.62) 47%,rgba(148,211,236,0) 100%);
+    background: linear-gradient(to bottom, rgba(148,211,236,1) 0%, rgba(148,211,236,0.98) 4%, rgba(200,211,236,0.9) 9%, rgba(148,211,236,0.97) 15%, rgba(148,211,236,0.72) 47%, rgba(148,211,236,0) 100%);
     border-top: #146b9d 4px solid;
 }
 
-#main_menu {
+#top {
     width: 980px;
     margin: 0 auto;
     position: relative;
-    top: 96px;
+    top: 25px;
+}
+
+#logo img {
+    position: relative;
+    left: 13px;
+}
+
+#main_menu {
+    margin-top: 12px;
+}
+
+.blim, .ster, .pl {
+    font-family: 'Josefin Slab', serif;
+    font-size: 18pt;
+}
+
+.blim {
+    color: #156a9c;
+}
+
+.ster {
+    color: #0b547f;
+    font-weight: bold;
+}
+
+.pl {
+    color: #5db0d4;
+}
+
+#title {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    left: 20px;
+    border-right: dashed 1px #59aacd;
+    padding-right: 20px;
+}
+
+#lorem {
+    font-family: 'Josefin Slab', serif;
+    font-size: 12pt;
+    display: inline-block;
+    color: #59aacd;
+    position: relative;
+    top: -18px;
+    left: 40px;
+}
+
+#buttons {
+    display: inline-block;
+    float: right;
+    background: rgba(120,195,225,0.4);
+    padding: 10px;
+    top: 10px;
+    position: relative;
+}
+
+#buttons a {
+    background-color: #fff;
+    color: #156a9c;
+    text-decoration: none;
+    font-size: 11pt;
+    font-family: arial;
+    padding: 6px;
+}
+
+.link2 {
+    margin-left: 15px;
 }
